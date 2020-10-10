@@ -11,7 +11,7 @@
   transition: width linear .75s;
 }
 
-.ex-2-square:hover{
+.ex-2-square:active{
   width:100%;
 }
 
@@ -135,44 +135,18 @@
 
 @keyframes borderRotationTop {
   0%{top:-10px;left:10%;}
-  10%{top:-10px; left:30%;}
-  15%{top:-10px; left:50%;}
-  20%{top:-10px; left:70%;}
-  25%{top:10px; left:90%;}
-  30%{top:30px; left:90%;}
-  35%{top:40px; left:90%;}
-  40%{top:50px; left:90%;}
-  45%{top:50px; left:70%;}
-  50%{top:50px; left:50%;}
-  55%{top:50px; left:30%;}
-  60%{top:50px; left:10%;}
-  65%{top:50px; left:0;}
-  75%{top:50px; left:-10%;}
-  80%{top:30px; left:-10%;}
-  85%{top:10px; left:-10%;}
-  90%{top:0px; left:-10%;}
-  95%{top:-10px; left:0;}
-  100%{top:-10px; left:10%;}
-}
+  20%{top:-10px; left:90%;}
+  30%{top:60px; left:90%;}
+  50%{top:60px; left:-10%;}
+  70%{top:-10px; left:-10%;}
+  90%{top:-10px; left:-10%;}
+  }
 
 @keyframes borderRotationBottom {
-  0%{bottom:-10px; right:20%;}
-  10%{bottom:-10px; right:30%;}
-  15%{bottom:-10px; right:50%;}
-  20%{bottom:-10px; right:70%;}
-  25%{bottom:10px; right:80%;}
-  30%{bottom:30px; right:80%;}
-  35%{bottom:40px; right:80%;}
-  40%{bottom:50px; right:80%;}
-  45%{bottom:50px; right:80%;}
-  50%{bottom:50px; right:70%;}
-  55%{bottom:50px; right:50%;}
-  60%{bottom:50px; right:30%;}
-  65%{bottom:50px; right:10%;}
-  75%{bottom:50px; right:0;}
-  80%{bottom:30px; right:-10%;}
-  85%{bottom:10px; right:-10%;}
-  90%{bottom:0px; right:-10%;}
-  95%{bottom:-10px; right:-10%;}
-  100%{bottom:-10px; right:20%;}
+  0%{top:-10px;left:10%;}
+  20%{top:-10px; left:90%;}
+  30%{top:60px; left:90%;}
+  50%{top:60px; left:-10%;}
+  70%{top:-10px; left:-10%;}
+  90%{top:-10px; left:-10%;}
 }
